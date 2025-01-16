@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" type="image/x-icon" href="logo.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Second Circuit Computers</title>
+        <body>
+            <body>
+                <div class="identification" style="display: flexbox; align-items: center;">
+                    <img src="secondcircuitnobg.png" alt="website logo" height="150" style="margin-right: 10px; position: absolute; margin-top:50px;">
+                    <div style="display: flex; flex-direction: column; align-items: flex-start;">
+                    </div>
+
+                </div>
+
+                <div class="identification2" style="display: flexbox; align-items: center;">
+                    <img src="ad1.png" alt="website logo" height="350" style="right:2px; position: absolute; margin-top:600px; z-index:600;">
+                    <div style="display: flex; flex-direction: column; align-items: flex-start;">
+                    </div>
+
+                </div>
+
+
+                <div class="header" id="myHeader">
+                    <h2 id="timer" style="font-size: 35px;"><b>FLASH SALE! EVERYTHING 30% OFF! Offer ends in <span id="countdown">03:11:47</span></b></h2>
+
+                    <script>
+                        // Countdown timer script
+                        var countdownTime = 3 * 60 * 60 + 11 * 60 + 46; // Starting time in seconds (3 hours, 11 minutes, 47 seconds)
+                
+                        function updateTimer() {
+                            // Calculate hours, minutes, and seconds
+                            var hours = Math.floor(countdownTime / 3600);
+                            var minutes = Math.floor((countdownTime % 3600) / 60);
+                            var seconds = countdownTime % 60;
+                
+                            // Format the time as HH:MM:SS
+                            var timeString = hours.toString().padStart(2, '0') + ":" + 
+                                             minutes.toString().padStart(2, '0') + ":" + 
+                                             seconds.toString().padStart(2, '0');
+                
+                            // Update the timer display
+                            document.getElementById("countdown").textContent = timeString;
+                
+                            // Decrease the countdown time by 1 second 
+                            if (countdownTime > 0) {
+                                countdownTime--;
+                            } else {
+                                // Timer has finished
+                                document.getElementById("countdown").textContent = "EXPIRED";
+                            }
+                        }
+                
+                        // Update the timer every second
+                        setInterval(updateTimer, 1000);
+                    </script>               
+                </div> 
+    
+                <div id="testelement" class="testelement">
+                    <button class="hamburger" id="hamburger" onclick="CloseFunction()">
+                        X
+                    </button>
+                    <ul class="menu" id="menu">
+                        <li style="font-weight:bold;"><a href="WebsiteTestIGuess.html" class="example-link">Home</a></li>
+                        <li><a href="./about/about.html" class="example-link">About Us</a></li>
+                        <li><a href="./products/products.html" class="example-link">Products</a></li>
+                        <li><a href="./faq/faq.html" class="example-link" >FAQ</a></li>
+                        <li><a href="./mission/mission.html" class="example-link">Our Mission</a></li>
+                        <li><a href="./contact/contact.html" class="example-link">Contact</a></li>
+                        <li><a href="./references/references.html" class="example-link">References</a></li>
+                      </ul>
+
+
+                      <script>
+                        function CloseFunction() {
+                            const element = document.getElementById('testelement');
+                            element.classList.add('hidden');                        }
+                      </script>
+                </div>
+
+            <div id="hamburger2" class="hamburger2">
+                <button id="hamburger3" class="hamburger2" onclick="OpenFunction()">
+                    ☰
+                </button>
+            </div>
+
+                <script>
+                    function OpenFunction() {
+                        const element = document.getElementById('testelement');
+                        element.classList.remove('hidden');                    }
+                </script>
+
+
+
+                </div>
+                <div class="container">
+
+
+
+
+                    <div class="titlebar" style="display: flex; align-items: center;">
+                        <img src="logo.png" alt="website logo" height="200" style="margin-right: 10px;">
+                        <div style="display: flex; flex-direction: column; align-items: flex-start;">
+                            <h1 style="margin: 0;">Second Circuit computers</h1>
+                            <h2 style="margin: 0;">Tech That Fits Your Wallet</h2>
+                        </div>
+                    </div>
+                    
+                
+
+
+                    <div class="content" style="font-weight:bold;">
+                        <h1 style="text-align:center; font-size:70px; margin-bottom:0px; padding-bottom:0px; margin-top:75px; line-height: 0px;">Best Sellers</h1>
+                        <div class="pcs" style="margin-top:0px; padding-top:0px;">
+
+                            <div class="pc1" style="text-align:center;">
+                                <img src="pc1test.png" alt="website logo" height="300" style="">
+                                <div class="buy">
+                                    <a href="./checkoutpc1.html">
+                                        <button class="buybutton">
+                                            Buy Now
+                                        </button>   
+                                    </a> 
+                                </div>
+
+                            </div>
+
+
+                            <div class="pc1" style="text-align:center;">
+                                <img src="pc2test2.png" alt="website logo" height="300">
+                                <a href="./checkoutpc2.html">
+                                    <button class="buybutton">
+                                        Buy Now
+                                    </button>
+                                </a> 
+
+
+
+
+
+
+                            </div>
+                            <br>
+                        </div>
+
+
+                    </div>
+                    <div class="content" style="font-weight:bold; height:1000px;">
+                        <a style="text-align:center; text-decoration:underline; margin-right:10px; font-size:20px;" class="morepcs" href="./products/products.html">
+                            <p style="text-align:center; text-decoration:underline; margin-right:10px; font-size:20px;" class="morepcs">
+                            More Computers
+                            </p>
+    
+                        </a>
+
+                        <div class="ratings-container" style="">
+                            <div class="ratings">
+                                <p style="line-height:0; margin-top:15px; margin-left:7px; margin-bottom:0px;">Rayan</p>
+                                <img src="5Star2.png" alt="image" height="40" style="margin-top:3px;">
+                                <p style="margin-left:5px; margin-right:10px; margin-top:0px; font-size:14px;">Works perfectly. I'm getting 100FPS in all my games. Definitely buying from here again!</p>
+                            </div>
+                            <div class="ratings">
+                                <p style="line-height:0; margin-top:15px; margin-left:7px; margin-bottom:0px;">Linus</p>
+                                <img src="5Star2.png" alt="image" height="40" style="margin-top:3px;">
+                                <p style="margin-left:5px; margin-right:10px; margin-top:0px; font-size:14px;">I bought it and it was literally delivered same day. 10/10 service.</p>
+
+                            </div>
+                            <div class="ratings">
+                                <p style="line-height:0; margin-top:15px; margin-left:7px; margin-bottom:0px;">Zach</p>
+                                <img src="5Star2.png" alt="image" height="40" style="margin-top:3px;">
+                                <p style="margin-left:5px; margin-right:10px; margin-top:0px; font-size:14px;">The computer runs so quiet. It's like it's not even there! Looks beautiful too. 100% recommend.</p>
+
+                            </div>
+                            <div class="ratings">
+                                <p style="line-height:0; margin-top:15px; margin-left:7px; margin-bottom:0px;">Ayan</p>
+                                <img src="5Star2.png" alt="image" height="40" style="margin-top:3px;">
+                                <p style="margin-left:5px; margin-right:10px; margin-top:0px; font-size:14px;">Great website, nice performance, good prices</p>
+
+                            </div>
+                            <div class="ratings">
+                                <p style="line-height:0; margin-top:15px; margin-left:7px; margin-bottom:0px;">Sarah</p>
+                                <img src="5Star2.png" alt="image" height="40" style="margin-top:3px;">
+                                <p style="margin-left:5px; margin-right:10px; margin-top:0px; font-size:14px;">I like the rgb lights. I had a good experience buying, it was a smooth experience.</p>
+
+                            </div>
+
+
+
+                        </div>
+
+                        <h1 style="text-align:center; font-size:70px; margin-bottom:0px; padding-bottom:0px; margin-top:75px; line-height: 0px;">Why Us?</h1>
+                        <p style="font-weight:bold; text-align:left; margin-top:48px; font-size:19.5px;">Here at Second Circuit Computers, we are commited to getting you the lowest prices possible. Because we scour local markets for good deals, you always know that you're getting the cheapest option available. And even after all that, you're still getting the best performance for your gaming purposes.</p>
+                        <br>
+                        <br>
+                        <video width="270" height="480" controls style="display: block; margin: auto;">
+                            <source src="Video Ad.mp4" type="video/mp4">
+                          Your browser does not support the video tag.
+                          </video>
+    
+                    </div>
+                    <br>
+                    <br>
+
+                      
+
+
+                </div>
+            </body>
+        </html>
+    </head>
+</html>

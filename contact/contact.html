@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" type="image/x-icon" href="logo.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Second Circuit Computers</title>
+        <body>
+            <body>
+                <div class="identification" style="display: flexbox; align-items: center;">
+                    <img src="secondcircuitnobg.png" alt="website logo" height="150" style="margin-right: 10px; position: absolute; margin-top:50px;">
+                    <div style="display: flex; flex-direction: column; align-items: flex-start;">
+                    </div>
+
+                </div>
+
+
+                <div class="header" id="myHeader">
+                    <h2 id="timer" style="font-size: 35px;"><b>FLASH SALE! EVERYTHING 30% OFF! Offer ends in <span id="countdown">03:11:47</span></b></h2>
+
+                    <script>
+                        // Countdown timer script
+                        var countdownTime = 3 * 60 * 60 + 11 * 60 + 46; // Starting time in seconds (3 hours, 11 minutes, 47 seconds)
+                
+                        function updateTimer() {
+                            // Calculate hours, minutes, and seconds
+                            var hours = Math.floor(countdownTime / 3600);
+                            var minutes = Math.floor((countdownTime % 3600) / 60);
+                            var seconds = countdownTime % 60;
+                
+                            // Format the time as HH:MM:SS
+                            var timeString = hours.toString().padStart(2, '0') + ":" + 
+                                             minutes.toString().padStart(2, '0') + ":" + 
+                                             seconds.toString().padStart(2, '0');
+                
+                            // Update the timer display
+                            document.getElementById("countdown").textContent = timeString;
+                
+                            // Decrease the countdown time by 1 second
+                            if (countdownTime > 0) {
+                                countdownTime--;
+                            } else {
+                                // Timer has finished
+                                document.getElementById("countdown").textContent = "EXPIRED";
+                            }
+                        }
+                
+                        // Update the timer every second
+                        setInterval(updateTimer, 1000);
+                    </script>               
+                    </div> 
+                <div id="testelement" class="testelement">
+                    <button class="hamburger" id="hamburger" onclick="CloseFunction()">
+                        X
+                    </button>
+                    <ul class="menu" id="menu">
+                        <li><a href="../WebsiteTestIGuess.html" class="example-link">Home</a></li>
+                        <li><a href="../about/about.html" class="example-link">About Us</a></li>
+                        <li><a href="../products/products.html" class="example-link">Products</a></li>
+                        <li><a href="../faq/faq.html" class="example-link" >FAQ</a></li>
+                        <li><a href="../mission/mission.html" class="example-link">Our Mission</a></li>
+                        <li style="font-weight:bold;"><a href="../contact/contact.html" class="example-link">Contact</a></li>
+                        <li><a href="../references/references.html" class="example-link">References</a></li>
+                      </ul>
+
+                      <script>
+                        function CloseFunction() {
+                            const element = document.getElementById('testelement');
+                            element.classList.add('hidden');                        }
+                      </script>
+                </div>
+
+            <div id="hamburger2" class="hamburger2">
+                <button id="hamburger3" class="hamburger2" onclick="OpenFunction()">
+                    ☰
+                </button>
+            </div>
+
+                <script>
+                    function OpenFunction() {
+                        const element = document.getElementById('testelement');
+                        element.classList.remove('hidden');                    }
+                </script>
+
+
+
+                </div>
+                <div class="container">
+                    <div class="titlebar" style="display: flex; align-items: center;">
+                        <img src="logo.png" alt="website logo" height="200" style="margin-right: 10px;">
+                        <div style="display: flex; flex-direction: column; align-items: flex-start;">
+                            <h1 style="margin: 0;">Contact Us</h1>
+                            <h2 style="margin: 0;">For All Your Inquiries</h2>
+                        </div>
+                    </div>
+                
+
+
+                    <div class="content">
+
+                        <p><b style="font-size: 30px; margin-bottom: 0px;">Toll Free Number:</b></p>
+                        <p style="font-size: 20px; margin-top: 0px; white-space: pre;"><b>       647-000-0001</b></p>
+                        <br>
+                        <br>
+                        <img src="phone.png" alt="website logo" height="30" style="position:absolute; top: 75px; right:1250px">
+                        <img src="location.png" alt="website logo" height="30" style="position:absolute; top: 231px; right:1250px">
+
+                        <img src="Email.png" alt="website logo" height="30" style="position:absolute; top: 75px; right:395px">
+                        <img src="smartphone.png" alt="website logo" height="30" style="position:absolute; top: 232px; right:395px">
+
+                        <p><b style="font-size: 30px; margin-bottom: 0px;">Address:</b></p>
+                        <p style="font-size: 20px; margin-top: 0px; white-space: pre;"><b>       10 Gardenbrooke Trail, Brampton, ON L6P 3L1</b></p>
+                        
+
+                        <p style="font-size: 30px; margin-bottom: 0px; text-align:right; position: absolute; top: -10px; right: 345px;"><b>Email:</b></p>
+                        <p style="font-size: 20px; margin-bottom: 0px; text-align:right; position: absolute; top: 55px; right: 130px;"><b>contact@secondcircuit.com</b></p>
+
+                        <p style="font-size: 30px; margin-bottom: 0px; text-align:right; position: absolute; top: 153px; right: 324px;"><b>Socials:</b></p>
+                        <p style="font-size: 20px; margin-bottom: 0px; text-align:right; position: absolute; top: 212px; right: 147px;"><b>@secondcircuitcomputers</b></p>
+
+
+
+                    </div>  
+                </div>
+            </body>
+        </html>
+    </head>
+</html>

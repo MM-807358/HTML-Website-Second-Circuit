@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" type="image/x-icon" href="logo.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Second Circuit Computers</title>
+        <body>
+            <body>
+                <div class="identification" style="display: flexbox; align-items: center;">
+                    <img src="secondcircuitnobg.png" alt="website logo" height="150" style="margin-right: 10px; position: absolute; margin-top:50px;">
+                    <div style="display: flex; flex-direction: column; align-items: flex-start;">
+                    </div>
+
+                </div>
+
+
+                <div class="header" id="myHeader">
+                    <h2 id="timer" style="font-size: 35px;"><b>FLASH SALE! EVERYTHING 30% OFF! Offer ends in <span id="countdown">03:11:47</span></b></h2>
+
+                    <script>
+                        // Countdown timer script
+                        var countdownTime = 3 * 60 * 60 + 11 * 60 + 46; // Starting time in seconds (3 hours, 11 minutes, 47 seconds)
+                
+                        function updateTimer() {
+                            // Calculate hours, minutes, and seconds
+                            var hours = Math.floor(countdownTime / 3600);
+                            var minutes = Math.floor((countdownTime % 3600) / 60);
+                            var seconds = countdownTime % 60;
+                
+                            // Format the time as HH:MM:SS
+                            var timeString = hours.toString().padStart(2, '0') + ":" + 
+                                             minutes.toString().padStart(2, '0') + ":" + 
+                                             seconds.toString().padStart(2, '0');
+                
+                            // Update the timer display
+                            document.getElementById("countdown").textContent = timeString;
+                
+                            // Decrease the countdown time by 1 second
+                            if (countdownTime > 0) {
+                                countdownTime--;
+                            } else {
+                                // Timer has finished
+                                document.getElementById("countdown").textContent = "EXPIRED";
+                            }
+                        }
+                
+                        // Update the timer every second
+                        setInterval(updateTimer, 1000);
+                    </script>               
+                    </div> 
+                <div id="testelement" class="testelement">
+                    <button class="hamburger" id="hamburger" onclick="CloseFunction()">
+                        X
+                    </button>
+                    <ul class="menu" id="menu">
+                        <li><a href="../WebsiteTestIGuess.html" class="example-link">Home</a></li>
+                        <li><a href="../about/about.html" class="example-link">About Us</a></li>
+                        <li style="font-weight:bold;"><a href="../products/products.html" class="example-link">Products</a></li>
+                        <li><a href="../faq/faq.html" class="example-link" >FAQ</a></li>
+                        <li><a href="../mission/mission.html" class="example-link">Our Mission</a></li>
+                        <li><a href="../contact/contact.html" class="example-link">Contact</a></li>
+                        <li><a href="../references/references.html" class="example-link">References</a></li>
+                      </ul>
+                      <script>
+                        function CloseFunction() {
+                            const element = document.getElementById('testelement');
+                            element.classList.add('hidden');                        }
+                      </script>
+                </div>
+
+            <div id="hamburger2" class="hamburger2">
+                <button id="hamburger3" class="hamburger2" onclick="OpenFunction()">
+                    ☰
+                </button>
+            </div>
+
+                <script>
+                    function OpenFunction() {
+                        const element = document.getElementById('testelement');
+                        element.classList.remove('hidden');                    }
+                </script>
+
+
+
+                </div>
+                <div class="container">
+                    <div class="titlebar" style="display: flex; align-items: center;">
+                        <img src="logo.png" alt="website logo" height="200" style="margin-right: 10px;">
+                        <div style="display: flex; flex-direction: column; align-items: flex-start;">
+                            <h1 style="margin: 0;">Products</h1>
+                            <h2 style="margin: 0;">Our Offerings</h2>
+                        </div>
+                    </div>
+                
+
+                    <div class="content">
+                        <h1 style="text-align:center; font-size:70px; margin-bottom:0px; padding-bottom:0px; margin-top:75px; line-height: 0px;">All Computers</h1>
+                        <div class="pcs" style="margin-top:0px; padding-top:0px;">
+
+                            <div class="pc1" style="text-align:center;">
+                                <img src="pc1test.png" alt="website logo" height="300" style="">
+                                <div class="buy">
+                                    <a href="../checkoutpc1.html">
+                                        <button class="buybutton">
+                                            Buy Now
+                                        </button>    
+                                    </a> 
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="pc1" style="text-align:center;">
+                                <img src="pc2test2.png" alt="website logo" height="300">
+                                <a href="../checkoutpc2.html">
+                                    <button class="buybutton">
+                                        Buy Now
+                                    </button> 
+                                </a> 
+   
+                        </div>
+
+                            <div class="pcs" style="margin-top:0px; padding-top:0px;">
+
+                                <div class="pc1" style="text-align:center; margin-right:30px; margin-left:90px;">
+                                    <img src="pc3.png" alt="website logo" height="300" style="" class="pcimage">
+                                    <a href="../checkoutpc3.html">
+                                        <button class="buybutton">
+                                            Buy Now
+                                        </button>  
+                                    </a> 
+  
+                                    </div>
+                                </div>
+    
+                                </div>
+    
+    
+                                <div class="pc1" style="text-align:center; margin-right:30px; margin-left:0px;">
+                                    <img src="pc4.png" alt="website logo" height="300">
+                                    <a href="../checkoutpc4.html">
+                                        <button class="buybutton">
+                                            Buy Now
+                                        </button>    
+                                    </a> 
+
+                                </div>
+
+                                <div class="pc1" style="text-align:center; margin-right:30px; margin-left:0px;">
+                                    <img src="pc5.png" alt="website logo" height="300">
+                                    <a href="../checkoutpc5.html">
+                                        <button class="buybutton">
+                                            Buy Now
+                                        </button>    
+                                    </a>
+                                </div>
+
+    
+
+
+                            <br>
+                        </div>
+
+
+
+
+
+
+
+                    </div>
+
+                </div>
+            </body>
+        </html>
+    </head>
+</html>

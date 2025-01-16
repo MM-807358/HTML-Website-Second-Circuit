@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" type="image/x-icon" href="logo.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Second Circuit Computers</title>
+        <body>
+            <body>
+                <div class="identification" style="display: flexbox; align-items: center;">
+                    <img src="secondcircuitnobg.png" alt="website logo" height="150" style="margin-right: 10px; position: absolute; margin-top:50px;">
+                    <div style="display: flex; flex-direction: column; align-items: flex-start;">
+                    </div>
+
+                </div>
+
+
+                </div>
+
+
+                <div class="header" id="myHeader">
+                    <h2 id="timer" style="font-size: 35px;"><b>FLASH SALE! EVERYTHING 30% OFF! Offer ends in <span id="countdown">03:11:47</span></b></h2>
+
+                    <script>
+                        // Countdown timer script
+                        var countdownTime = 3 * 60 * 60 + 11 * 60 + 46; // Starting time in seconds (3 hours, 11 minutes, 47 seconds)
+                
+                        function updateTimer() {
+                            // Calculate hours, minutes, and seconds
+                            var hours = Math.floor(countdownTime / 3600);
+                            var minutes = Math.floor((countdownTime % 3600) / 60);
+                            var seconds = countdownTime % 60;
+                
+                            // Format the time as HH:MM:SS
+                            var timeString = hours.toString().padStart(2, '0') + ":" + 
+                                             minutes.toString().padStart(2, '0') + ":" + 
+                                             seconds.toString().padStart(2, '0');
+                
+                            // Update the timer display
+                            document.getElementById("countdown").textContent = timeString;
+                
+                            // Decrease the countdown time by 1 second 
+                            if (countdownTime > 0) {
+                                countdownTime--;
+                            } else {
+                                // Timer has finished
+                                document.getElementById("countdown").textContent = "EXPIRED";
+                            }
+                        }
+                
+                        // Update the timer every second
+                        setInterval(updateTimer, 1000);
+                    </script>               
+                </div> 
+    
+                <div id="testelement" class="testelement">
+                    <button class="hamburger" id="hamburger" onclick="CloseFunction()">
+                        X
+                    </button>
+                    <ul class="menu" id="menu">
+                        <li><a href="WebsiteTestIGuess.html" class="example-link">Home</a></li>
+                        <li><a href="./about/about.html" class="example-link">About Us</a></li>
+                        <li><a href="./products/products.html" class="example-link">Products</a></li>
+                        <li><a href="./faq/faq.html" class="example-link" >FAQ</a></li>
+                        <li><a href="./mission/mission.html" class="example-link">Our Mission</a></li>
+                        <li><a href="./contact/contact.html" class="example-link">Contact</a></li>
+                        <li><a href="./references/references.html" class="example-link">References</a></li>
+                      </ul>
+
+
+                      <script>
+                        function CloseFunction() {
+                            const element = document.getElementById('testelement');
+                            element.classList.add('hidden');                        }
+                      </script>
+                </div>
+
+            <div id="hamburger2" class="hamburger2">
+                <button id="hamburger3" class="hamburger2" onclick="OpenFunction()">
+                    ☰
+                </button>
+            </div>
+
+                <script>
+                    function OpenFunction() {
+                        const element = document.getElementById('testelement');
+                        element.classList.remove('hidden');                    }
+                </script>
+
+
+
+                </div>
+                <div class="container">
+
+
+
+
+
+                    
+                
+
+
+                    <div class="content" style="font-weight:bold; height:800px">
+                        <h1 style="text-align:left; font-size:120px; margin-bottom:40px; padding-bottom:0px; margin-top:75px; line-height: 0px;">Checkout</h1>
+
+                        <b width:60% style="font-size:40px; position:absolute; width: 60vh">Please confirm your order on the right.</b>
+
+                        <div class="specs">
+                            <h2 style="text-align:center; margin-top: 30px; font-size:35px; line-height:0;">Technical Specifications</h2>
+                            <b style="font-size:30px;">CPU: Ryzen 3 3600</b>
+                            <br>
+                            <b style="font-size:30px;">GPU: GTX 1660 Super</b>
+                            <br>
+                            <b style="font-size:30px;">PSU: 650W Gold Rated</b>
+                            <br>
+                            <b style="font-size:30px;">RAM: 16GB 3200mhz</b>
+                            <br>
+                            <b style="font-size:30px;">SSD: 512GB NVME</b>
+
+                        </div>
+
+
+                        <div class="summary" style="text-align:center;">
+                            <img src="pc4.png" alt="website logo" height="350" >
+                            <hr>
+                            <p style="text-align:left; margin-left:7px;">
+                            Delivery Fee: $0.00
+                            <br>
+                            Tax: $0.00
+                            <br>
+                            Order Total: $210.00
+                            </p>
+                            <hr>
+                            <p style="font-size:30px; text-align:left; margin-left:7px; margin-top:0px; margin-bottom:7px;">
+                                Total: $210.00
+                            </p>
+                            <div class="buy" style="text-align:center; margin-top:0px;">
+                                <button class="buybutton">
+                                    Order Now
+                                </button>
+                            </div>
+
+                        </div>
+            
+                    </div>
+                </div>
+            </body>
+        </html>
+    </head>
+</html>

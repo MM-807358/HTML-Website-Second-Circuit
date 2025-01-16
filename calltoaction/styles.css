@@ -1,0 +1,206 @@
+body {
+    font-family: system-ui;
+    background-color: #c3d9ff;
+    color: #5a3dff;
+    background-image: url('bg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0px;
+}
+
+
+h1 {
+    font-family: "Bungee", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.titlebar h1 {
+    font-size: 60px;
+}
+.titlebar {
+    padding: 20px;
+}
+
+.titlebar ul {
+    width:100%;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    color:#5a3dff;
+}
+
+.titlebar ul a,a:visited {
+    color:#5a3dff;
+}
+  
+.titlebar ul a:hover {
+  color:#7cc1f9;
+}
+
+.titlebar li {
+    float: left;
+    padding-left: 25px;
+}
+
+.titlebar {
+    padding: 20px;
+    background-color: #b9dcff;
+}
+.container {
+    margin: 0 auto; 
+    width: 1300px;
+    position: relative;
+    opacity: 0.96;
+}
+
+
+.content {
+    width:1260px;
+    height:10000px;
+    margin-top: 0px;
+    margin-left:auto;
+    margin-right:auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 15px;
+    background-color: #9ed6ff;
+    color:#5a3dff;
+    position: relative;
+}
+
+.content a,a:visited {
+    color: #5a3dff;
+}
+
+.content a:hover {
+    color: #04247C;
+}
+
+table {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+  
+table td {
+    border:#003D7A 4px solid;
+    text-align: center;
+    padding: 8px;
+}
+
+table .pattern1 {
+    background-color: #40B0DF; 
+    color: #5a3dff
+}
+
+table .pattern2 {
+    background-color: #04247C; 
+    color: #7cc1f9
+}
+
+table .pattern1 a,a:visited {
+    color: #5a3dff;
+}
+
+table .pattern1 a:hover {
+    color: #04247C;
+}
+
+table .pattern2 a,a:visited {
+    color: #7cc1f9;
+}
+
+table .pattern2 a:hover {
+    color: #5a3dff;
+}
+
+.chlist {
+    list-style-type: square;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    padding: 10px 16px;
+    background: #ff0000;
+    color: #f1f1f1;
+    z-index: 999;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+.wrapper {
+    display: flex;
+}
+
+.container {
+    width: 1300px;
+}
+
+.testelement {
+    width: 300px;
+    height: 400px; /* You can specify a height too */
+    background-color: lightblue; /* Just an example */
+    position: fixed;
+    top: 60px; /* Adjust to align with the .container */
+    right: 0; /* Keeps it aligned to the right */
+    opacity: 1;
+    transition: opacity 0.5s, visibility 0.5s; 
+    z-index: 234329;    
+
+}
+
+.testelement a:hover { 
+    font-weight: bold;
+}
+
+.hidden {
+    opacity: 0; /* Invisible */
+    visibility: hidden; /* Hides after transition */
+  }
+
+.menu {
+    transition: opacity 0.5s; /* Smooth transition */
+    font-size: 30px;
+}
+
+.hamburger {
+    background: none;
+    border: none;
+    color: #000000;
+    font-size: 32px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px; /* Adjust top value to your liking */
+    right: 10px; /* Positions the hamburger button on the right */
+
+  }
+
+.hamburger2 {
+    background: none;
+    border: none;
+    color: #000000;
+    font-size: 32px;
+    cursor: pointer;
+    position: fixed; /* Matches .hamburger */
+    top: 70px; /* Same as .hamburger */
+    right: 10px; /* Same as .hamburger */
+    z-index: 999;
+}
+
+.example-link {
+    color: #006dd2; /* Change color for visited links */
+    
+  }
+
+.example-link:visited {
+    color: #006dd2; /* Change color for visited links */
+  }
+
+  

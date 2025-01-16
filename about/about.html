@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" type="image/x-icon" href="logo.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Second Circuit Computers</title>
+        <body>
+            <body>
+                <div class="identification" style="display: flexbox; align-items: center;">
+                    <img src="secondcircuitnobg.png" alt="website logo" height="150" style="margin-right: 10px; position: absolute; margin-top:50px;">
+                    <div style="display: flex; flex-direction: column; align-items: flex-start;">
+                    </div>
+
+                </div>
+
+                <div class="header" id="myHeader">
+                    <h2 id="timer" style="font-size: 35px;"><b>FLASH SALE! EVERYTHING 30% OFF! Offer ends in <span id="countdown">03:11:47</span></b></h2>
+
+                    <script>
+                        // Countdown timer script
+                        var countdownTime = 3 * 60 * 60 + 11 * 60 + 46; // Starting time in seconds (3 hours, 11 minutes, 47 seconds)
+                
+                        function updateTimer() {
+                        // Calculate hours, minutes, and seconds
+                            var hours = Math.floor(countdownTime / 3600);
+                            var minutes = Math.floor((countdownTime % 3600) / 60);
+                            var seconds = countdownTime % 60;
+                
+                            // Format the time as HH:MM:SS
+                            var timeString = hours.toString().padStart(2, '0') + ":" + 
+                                             minutes.toString().padStart(2, '0') + ":" + 
+                                             seconds.toString().padStart(2, '0');
+                
+                            // Update the timer display
+                            document.getElementById("countdown").textContent = timeString;          
+
+                            // Decrease the countdown time by 1 second 
+                            if (countdownTime > 0) {
+                                countdownTime--;
+                            } else {
+                                // Timer has finished
+                                document.getElementById("countdown").textContent = "EXPIRED";
+                            }
+                        }
+                    
+                        // Update the timer every second
+                        setInterval(updateTimer, 1000);
+                    </script>               
+                    </div> 
+                    <div id="testelement" class="testelement">
+                    <button class="hamburger" id="hamburger" onclick="CloseFunction()">
+                        X
+                    </button>
+                    <ul class="menu" id="menu">
+                        <li><a href="../WebsiteTestIGuess.html" class="example-link">Home</a></li>
+                        <li style="font-weight:bold;"><a href="../about/about.html" class="example-link">About Us</a></li>
+                        <li><a href="../products/products.html" class="example-link">Products</a></li>
+                        <li><a href="../faq/faq.html" class="example-link" >FAQ</a></li>
+                        <li><a href="../mission/mission.html" class="example-link">Our Mission</a></li>
+                        <li><a href="../contact/contact.html" class="example-link">Contact</a></li>
+                        <li><a href="../references/references.html" class="example-link">References</a></li>
+                      </ul>
+                      <script>
+                        function CloseFunction() {
+                            const element = document.getElementById('testelement');
+                            element.classList.add('hidden');                        }
+                      </script>
+                </div>
+
+            <div id="hamburger2" class="hamburger2">
+                <button id="hamburger3" class="hamburger2" onclick="OpenFunction()">
+                    ☰
+                </button>
+            </div>
+
+                <script>
+                    function OpenFunction() {
+                        const element = document.getElementById('testelement');
+                        element.classList.remove('hidden');                    }
+                </script>
+
+
+
+                </div>
+                <div class="container">
+                    <div class="titlebar" style="display: flex; align-items: center;">
+                        <img src="logo.png" alt="website logo" height="200" style="margin-right: 10px;">
+                        <div style="display: flex; flex-direction: column; align-items: flex-start;">
+                            <h1 style="margin: 0;">About Us</h1>
+                            <h2 style="margin: 0;">Discover Our Story</h2>
+                        </div>
+                    </div>
+                
+
+                    <div class="content">
+                        <h1></h1>
+
+                        <b style="font-size: 21px; padding-right:50px;">
+                            Have you ever been browsing for a new computer, only to see the outrageous prices? If you've ever been in that predicament, you'd know why I started Second Circuit Computers. It can cost upwards of $1500 just to get a midrange computer. 
+                            When I started getting into building computers, I didn't know how to get good deals. I spent too much on some parts and not enough on others.
+                            My hope is that with my business, I'm able to help some other PC newbies to prevent them from making the same mistakes I did.
+                            <br>
+                            <br>
+                        </b>
+                        <div style="display:flex;">
+
+                            <b style="font-size:21px; display: block; width: 60%">
+                                Recently, I built this computer. It was built with all used parts for only about 40% of the market value. This PC runs perfectly and you would never be able to tell it's made from used parts. My hope is that the computer industry stops selling overpriced parts so you don't have to buy used, but until then here we are.
+                            </b>
+                            <img src="mypc.jpg" alt="the computer" height="500" style="display: block;">
+        
+                        </div>
+
+                        <img src="marketpliers.png" alt="test" height="400" style="position: absolute; top:360px; right:570px"> 
+
+                    </div>
+
+                </div>
+            </body>
+        </html>
+    </head>
+</html>

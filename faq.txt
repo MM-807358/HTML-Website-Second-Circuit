@@ -1,0 +1,43 @@
+                    <div class="content">
+                        <h1>Frequently Asked Questions</h1>
+
+                        <h2 style="margin-bottom: 3px; font-size: 25px">Q. What's the business?</h2>
+                        <b style="font-size: 20px">A. We assemble computers from discounted parts, allowing us to sell you computers for cheap.</b>
+
+                        <h2 style="margin-bottom: 3px; font-size: 25px">Q. How do you have such cheap prices?</h2>
+                        <b style="font-size: 20px">A. Our business model revolves around us getting the best deal on used parts, greatly cutting costs which is then passed on to you.</b>
+
+                        <h2 style="margin-bottom: 3px; font-size: 25px">Q. What is your return policy?</h2>
+                        <b style="font-size: 20px">A. If there are any issues with the computer that we did not properly disclaim, we will be happy to refund you and take it back.</b>
+
+                        <h2 style="margin-bottom: 3px; font-size: 25px">Q. Your prices are too good. What's the catch?</h2>
+                        <b style="font-size: 20px">A. The catch is that our parts are not new, meaning our overall costs are much cheaper and you can get a capable machine for cheap.</b>
+
+                        <h2 style="margin-bottom: 3px; font-size: 25px">Q. Where do you deliver?</h2>
+                        <b style="font-size: 20px">A. We deliver our computers to anywhere in the Greater Toronto Area.</b>
+
+                        <h2 style="margin-bottom: 3px; font-size: 25px">Q. Do I get peripherals with my PC?</h2>
+                        <b style="font-size: 20px">A. No, we only offer the computers. You'll need to get your own peripherals elsewhere.</b>
+
+                        <h2 style="margin-bottom: 3px; font-size: 25px">Q. How do you test the parts?</h2>
+                        <b style="font-size: 20px">A. After recieving the parts, we run them through many benchmarks and make sure they are up to standard before building a computer with them.</b>
+
+                        <h2 style="margin-bottom: 3px; font-size: 25px">Q. Do you offer warranty?</h2>
+                        <b style="font-size: 20px">A. No, we don't offer warranty. If there's an issue caused by us however, we'll be happy to take it back and refund you your money.</b>
+
+                        <h2 style="margin-bottom: 3px; font-size: 25px">Q. What's the condition of the PCs?</h2>
+                        <b style="font-size: 20px">A. The conditions of the computers are listed on their product page.</b>
+
+                        <h2 style="margin-bottom: 3px; font-size: 25px">Q. What payment methods do you accept?</h2>
+                        <b style="font-size: 20px">A. We accept debit and credit online, and we accept cash in person. Paying with cash has a surcharge of $5.</b>
+
+                        <h2 style="margin-bottom: 3px; font-size: 25px">Q. I have a question. How can I contact you?</h2>
+                        <b style="font-size: 20px">A. You can contact us by visiting our contact page <a href="contact/index.html" class="example-link">here</a>.</b>
+
+
+
+
+
+
+
+                    </div>
